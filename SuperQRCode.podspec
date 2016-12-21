@@ -3,7 +3,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "SuperQRcode"
-  s.version      = "0.0.1"
+  s.version      = "0.0.3"
   s.summary      = "二维码生成."
 
   s.description  = <<-DESC
@@ -22,9 +22,9 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/Super-sweet/SuperQRcode.git", :tag => s.version }
 
 
-  s.source_files  = "SuperQRcode/SuperQRcode.{h,m}"
+  s.source_files  = "SuperQRcode/SuperQRcode*.{h,m}"
   s.frameworks    = "UIKit", "Foundation", "CoreGraphics"
-  s.requires_arc = true
+  s.requires_arc  = true
 
 
 end
