@@ -3,7 +3,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "SuperQRcode"
-  s.version      = "0.0.3"
+  s.version      = "0.0.4"
   s.summary      = "二维码生成."
 
   s.description  = <<-DESC
